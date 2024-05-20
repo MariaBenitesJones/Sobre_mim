@@ -1,0 +1,41 @@
+.introducao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    padding: 3rem;
+    height: 80%;
+}
+
+.introducao h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative
+}
+
+.introducao span{
+    font-size: 0.95rem;
+    color: var(--roxo-escuro);
+}
+
+.introducao p{
+    font-size: 1.25rem;
+    margin-top: 5px;
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.introducao_conteudo{
+    width: 50%;
+    text-align: center;
+}
+
+.introducao img{
+    width: 30%;
+}
+

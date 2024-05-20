@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: var(--cinza);
+}
+
+.button{
+    background-color: var(--roxo-claro);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color:  var(--branco);
+}
+
+:root{
+    --roxo-escuro: #441f88;
+    --roxo-claro: #5c20c6;
+    --branco: #f9f9f9;
+    --cinza: #cccccc;
+    --preto: #171717;
+}

@@ -1,0 +1,41 @@
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    height: 80%;
+    margin-bottom: 10rem;
+}
+.sobre img{
+    border-radius: 50%;
+    margin: 1rem;
+    max-width: 20rem;
+}
+
+.bloco_2{
+    display: flex;
+    align-items: center;
+}
+
+.quem_sou_eu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sobre p{
+    margin: 1rem;
+    max-width: 30rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.git{
+    display: flex;
+}

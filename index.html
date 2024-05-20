@@ -4,98 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
     <title>Quem sou eu?</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="">
-                <li>Universe</li>
-            </a>
-            <a href="">
-                <li>Home</li>
-            </a>
-            <a href="">
-                <li>Sobre</li>
-            </a>
-            <a href="">
-                <li>Contate me</li>
-            </a>
-        </nav>
+        <div class="header_container">
+            <h1>Maria Eduarda Benites Jones</h1>
+            <nav>
+                <ul class="header_menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contate me</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-
-        <section>
-            <article>
-                <div id="Sobre_mim">
-                    <h3>Bem Vindo a um Novo Universo</h3>
-                    <h1>Diferentes mundos para</h1>
-                    <h1>diferentes pessoas</h1>
-                    <p>sobre mim</p>
-                    <button type="button">Explore</button>
+        <section id="home" class="introducao">
+            <div class="introducao_conteudo">
+                <div class="introducao_texto">
+                    <span>Bem Vindo a um Novo Universo</span>
+                    <h1>Desenvolvedora FullStack Junior</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nihil maxime. Ipsam, cum
+                        eius rem nobis autem, illum doloribus culpa nisi id vel veritatis, veniam aut? Necessitatibus,
+                        voluptate temporibus? Dolores.</p>
                 </div>
-                <div id="Astronauta">
-                    <img src="assets/img/astronauta.svg" alt="">
+                <div>
+                    <a class="button">Explore</a>
                 </div>
-            </article>
+            </div>
+            <img src="assets/img/astronauta.svg" alt="">
         </section>
 
-        <section>
-            <article>
-                <div id="Foto_GitHub">
-                    <img src="assets/img/Foto_GitHub.png" alt="">
+        <section id="sobre" class="sobre">
+            <article class="bloco_2">
+                <div>
+                    <img src="https://avatars.githubusercontent.com/u/153673223?v=4" alt="">
                 </div>
-                <div id="Quem_sou_eu">
-                    <h1>Quem sou eu?</h1>
-                    <p>QUEM SOU EU</p>
-                    <div id="button_GitHub">
-                        <button type="button">GitHub</button>
-                    </div>
-                    <div id="seguidores">
+                <div class="quem_sou_eu">
+                    <h2>Quem sou eu?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus alias explicabo iure sed quod
+                        ullam expedita, molestias possimus, officia eveniet temporibus et iusto voluptatum blanditiis
+                        est nisi ipsa nihil id.</p>
+                    <div class="git">
+                        <a class="button" href="">GitHub</a>
                         <p>3 Seguidores</p>
-                    </div>
-                    <div id="repositório">
                         <p>14 Repositórios</p>
                     </div>
                 </div>
             </article>
         </section>
 
-        <section>
-            <article>
-                <div id="me_contate">
-                    <p>ESCREVER ALGO</p>
-                    <div id="linkedin">
-                        <img src="assets/img/linkedin.svg" alt="">
-                    </div>
-                    <div id="logo_GitHub">
-                        <img src="assets/img/github.svg" alt="">
-                    </div>
-                    <div id="instagram">
-                        <img src="assets/img/instagram.svg" alt="">
-                    </div>
+        <section class="me_contate">
+            <div class="text-redes">
+                <h2>Me contate</h2>
+                <div class="text-contatos">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque incidunt nesciunt, labore
+                        laboriosam explicabo minus porro recusandae. Maxime, asperiores. Soluta obcaecati eum quibusdam
+                        voluptas unde nesciunt placeat a. Delectus.</p>
                 </div>
-            </article>
-        </section>
+                <div class="redes">
+                    <a href=""><img src="assets/img/linkedin.svg" alt="Icone Linkedin"> </a>
+                    <a href=""><img src="assets/img/github.svg" alt="icone GitHub"></a>
+                    <a href=""><img src="assets/img/instagram.svg" alt="Icone Instagram"></a>
+                </div>
+            </div>
 
-        <section>
-            <form action="">
-                <label for=""><strong>Nome:</strong></label>
-                <input type="text" name="nome" placeholder="Digite seu nome">
+            <!-- <div class="text-contatos">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque incidunt nesciunt, labore laboriosam explicabo minus porro recusandae. Maxime, asperiores. Soluta obcaecati eum quibusdam voluptas unde nesciunt placeat a. Delectus.</p>
+            </div> -->
+            <div class="contato-form">
+                <form class="form">
+                    <label for=""><strong>Nome:</strong></label>
+                    <input type="text" name="nome" >
 
-                <label for="email"><strong> Email: </strong></label>
-                <input id="email" type="text" name="subject" placeholder="Digite seu email">
+                    <label for="email"><strong> Email: </strong></label>
+                    <input id="email" type="text" name="subject" >
 
-                <label for="subject"><strong> Assunto: </strong> </label>
-                <input id="subject" type="text" name="subject" placeholder="Digite o assunto">
+                    <label for="subject"><strong> Assunto: </strong> </label>
+                    <input id="subject" type="text" name="subject" >
 
-                <label for="messag"><strong> Mensagem: </strong> </label>
-                <textarea id="message" name="massage" placeholder="Digite sua mensagem"></textarea>
+                    <label for="messag"><strong> Mensagem: </strong> </label>
+                    <textarea id="message" name="massage"></textarea>
 
-                <button type="submit">Enviar</button>
-
-            </form>
+                    <a class="button-form">Enviar</a>
+                    <!-- <button type="submit">Enviar</button> -->
+                </form>
+            </div>
         </section>
     </main>
 

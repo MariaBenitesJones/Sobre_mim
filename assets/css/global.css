@@ -12,14 +12,18 @@ body{
 
 .button{
     background-color: var(--roxo-claro);
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 8px;
     color:  var(--branco);
+}
+.button:hover{
+    background-color: var(--violeta);
 }
 
 :root{
     --roxo-escuro: #441f88;
     --roxo-claro: #5c20c6;
+    --violeta: #7e41e7;
     --branco: #f9f9f9;
     --cinza: #cccccc;
     --preto: #171717;

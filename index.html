@@ -27,7 +27,7 @@
         <section id="home" class="introducao">
             <div class="introducao_conteudo">
                 <div class="introducao_texto">
-                    <span>Bem Vindo a um Novo Universo</span>
+                    <span>Seja Bem Vindo ao Meu Universo</span>
                     <h1>Desenvolvedora FullStack Junior</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nihil maxime. Ipsam, cum
                         eius rem nobis autem, illum doloribus culpa nisi id vel veritatis, veniam aut? Necessitatibus,
@@ -41,25 +41,10 @@
         </section>
 
         <section id="sobre" class="sobre">
-            <article class="bloco_2">
-                <div>
-                    <img src="https://avatars.githubusercontent.com/u/153673223?v=4" alt="">
-                </div>
-                <div class="quem_sou_eu">
-                    <h2>Quem sou eu?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus alias explicabo iure sed quod
-                        ullam expedita, molestias possimus, officia eveniet temporibus et iusto voluptatum blanditiis
-                        est nisi ipsa nihil id.</p>
-                    <div class="git">
-                        <a class="button" href="">GitHub</a>
-                        <p>3 Seguidores</p>
-                        <p>14 Repositórios</p>
-                    </div>
-                </div>
-            </article>
+    
         </section>
 
-        <section class="me_contate">
+        <section id="contato" class="me_contate">
             <div class="text-redes">
                 <h2>Me contate</h2>
                 <div class="text-contatos">
@@ -74,25 +59,27 @@
                 </div>
             </div>
 
-            <!-- <div class="text-contatos">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque incidunt nesciunt, labore laboriosam explicabo minus porro recusandae. Maxime, asperiores. Soluta obcaecati eum quibusdam voluptas unde nesciunt placeat a. Delectus.</p>
-            </div> -->
             <div class="contato-form">
-                <form class="form">
+                <form class="form" action="https://formsubmit.co/site.sobre.mim.emails@gmail.com
+                " method="POST">
                     <label for=""><strong>Nome:</strong></label>
-                    <input type="text" name="nome" >
+                    <input type="text" name="nome"  required >
 
                     <label for="email"><strong> Email: </strong></label>
-                    <input id="email" type="text" name="subject" >
+                    <input id="email" type="email" name="email" required >
 
                     <label for="subject"><strong> Assunto: </strong> </label>
-                    <input id="subject" type="text" name="subject" >
+                    <input id="subject" type="text" name="assunto"  required  >
 
                     <label for="messag"><strong> Mensagem: </strong> </label>
-                    <textarea id="message" name="massage"></textarea>
+                    <textarea id="message" name="massage" required></textarea>
 
-                    <a class="button-form">Enviar</a>
-                    <!-- <button type="submit">Enviar</button> -->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
+
+                    <button type="submit" class="button-form"> Enviar</button>
+                    
                 </form>
             </div>
         </section>
@@ -102,6 +89,8 @@
         <p>Feito com &#x1F604 por Maria Eduarda Jones - 2024</p>
     </footer>
 
+    <script src="assets/js/scripts.js"></script>
+    
 </body>
 
 </html>

@@ -7,9 +7,12 @@
     margin-bottom: 10rem;
 }
 .sobre img{
+    border-color: var(--roxo-claro) ;
+    border-style: solid;
     border-radius: 50%;
     margin: 1rem;
     max-width: 20rem;
+    
 }
 
 .bloco_2{
